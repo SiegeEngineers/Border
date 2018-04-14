@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Default_1" xml:space="preserve">
+    <value>Border is developed by</value>
+    <comment>This app was created by &lt;abductedPlatypus&gt; as a test project to get AoE2 skills and broaden my programming skills. For the manual, reporting bugs, requesting features and the latest version go to &lt;Github&gt;.</comment>
+  </data>
+  <data name="About_Default_2" xml:space="preserve">
+    <value>as a test project to get AoE2 skills and broaden my programming skills. For the manual, reporting bugs, requesting features and the latest version checkout</value>
+    <comment>&lt;Text in between abducted platypus and github&gt;</comment>
+  </data>
+  <data name="About_Default_3" xml:space="preserve">
+    <value>for the project's page.</value>
+    <comment>&lt;Text after github&gt;</comment>
+  </data>
+  <data name="About_Disclaimer" xml:space="preserve">
+    <value>This software is provided "as is", without warranty of any kind, express or implied.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="About_Translation" xml:space="preserve">
+    <value />
+    <comment>&lt;Dutch&gt; translation by: &lt;translator name&gt;</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="CM_About" xml:space="preserve">
+    <value>Manual/About</value>
+  </data>
+  <data name="CM_AlwaysOnTop" xml:space="preserve">
+    <value>Always On Top</value>
+  </data>
+  <data name="CM_AutoStepper" xml:space="preserve">
+    <value>AutoStepper</value>
+  </data>
+  <data name="CM_BuildOrders" xml:space="preserve">
+    <value>Build Orders</value>
+  </data>
+  <data name="CM_CheckForUpdates" xml:space="preserve">
+    <value>Check For Updates</value>
+  </data>
+  <data name="CM_ClickThrough" xml:space="preserve">
+    <value>Click Through Window</value>
+  </data>
+  <data name="CM_Compact" xml:space="preserve">
+    <value>Compact</value>
+  </data>
+  <data name="CM_NextBO" xml:space="preserve">
+    <value>Next Build Order</value>
+  </data>
+  <data name="CM_NextTask" xml:space="preserve">
+    <value>Next Step</value>
+  </data>
+  <data name="CM_PrevBO" xml:space="preserve">
+    <value>Previous Build Order</value>
+  </data>
+  <data name="CM_PrevTask" xml:space="preserve">
+    <value>Previous Step</value>
+  </data>
+  <data name="CM_Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="CM_Speed" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="CM_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="Title_NoBuildOrder" xml:space="preserve">
+    <value>No Build Orders Found!</value>
+  </data>
+  <data name="Update_ConnectionError" xml:space="preserve">
+    <value>Could not download latest Update Information. Please make sure this link is valid and you are connected to the internet.</value>
+  </data>
+  <data name="Update_FileError" xml:space="preserve">
+    <value>Your '{0}' file is missing. Please backup your builds and redownload the app.</value>
+    <comment>{0} =e.g. Resources/settings.json</comment>
+  </data>
+  <data name="Update_NewVersion" xml:space="preserve">
+    <value>A new version ({0}) is available: '{1}'!</value>
+    <comment>{0} = e.g. 0.1-alpha {1} = e.g. This update adds free pizza.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>You are up-to-date!</value>
+  </data>
+</root>

@@ -1,0 +1,55 @@
+﻿{
+  "OnlineBOs": [
+    "https://gist.github.com/raw/pizza",
+    "https://gist.github.com/raw/risotto"
+  ],
+  "UpdateURL": "http://abductedplatypus.com/Border/updates/update.json",
+  "BackgroundColor": "#ffffff",
+  "ActiveColor": "#12acff",
+  "Opacity": 0.7,
+  "ClickThroughOpacity": 0.5,
+  "AlwaysOnTop": true,
+  "ClickThrough": false,
+  "Buttons": {
+    "ToggleClickThrough": {
+      "HumanReadable": "Alt+\\",
+      "KeyCode": "0xDC",
+      "Shift": false,
+      "Control": false,
+      "Alt": true
+    },
+    "NextBO": {
+      "HumanReadable": "Alt+Up",
+      "KeyCode": "0x26",
+      "Shift": false,
+      "Control": false,
+      "Alt": true
+    },
+    "PreviousBO": {
+      "HumanReadable": "Alt+Down",
+      "KeyCode": "0x28",
+      "Shift": false,
+      "Control": false,
+      "Alt": true
+    },
+    "NextTask": {
+      "HumanReadable": "Alt+Space",
+      "KeyCode": "0x20  ",
+      "Shift": false,
+      "Control": false,
+      "Alt": true
+    },
+    "PreviousTask": {
+      "HumanReadable": "Alt+Ctrl+Space",
+      "KeyCode": "0x20",
+      "Shift": false,
+      "Control": true,
+      "Alt": true
+
+    }
+  },
+  "X": 5,
+  "Y": 5,
+  "Width": 1500,
+  "Height": 90
+}

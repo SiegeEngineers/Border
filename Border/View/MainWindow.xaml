@@ -1,0 +1,325 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+        xmlns:View="clr-namespace:Border.View"
+        xmlns:Helpers="clr-namespace:Border.Helpers"
+        xmlns:ViewModel="clr-namespace:Border.ViewModel" 
+        xmlns:Properties="clr-namespace:Border.Properties"
+    
+        AllowsTransparency="True"
+        x:Class="Border.View.MainWindow"
+        mc:Ignorable="d"
+        Title="{x:Static Properties:Strings.AppName}" Height="115" Width="1580"
+    
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+    
+        Topmost="True"
+        WindowStyle="None"
+        WindowStartupLocation="Manual"
+        ResizeMode="CanResizeWithGrip"
+        BorderThickness="1"
+        Left="10"
+        Top="10" 
+        IsHitTestVisible="True"
+        MouseLeave="Window_MouseLeave"
+        MouseDown="Window_MouseDown"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        
+    >
+    <!-- xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase" -->
+    <!--, diag:PresentationTraceSources.TraceLevel=High-->
+   <Window.Background>
+        <SolidColorBrush Color="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BackgroundColor}"
+                         Opacity="0.6" /> 
+    </Window.Background>
+    <Window.Resources>
+        <ControlTemplate x:Key="TaskTemplateHorizontal" TargetType="View:Task">
+            <Canvas Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                <Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.ActiveColor}">
+                    <Rectangle.Style>
+                        <Style TargetType="Rectangle">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=View:Task}, Path=IsSelected}"  Value="True">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Rectangle.Style>
+                </Rectangle>
+                <TextBlock Padding="4,4,4,4" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" TextWrapping="WrapWithOverflow">
+                    <TextBlock.Inlines>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Bold" FontSize="12" Text="{TemplateBinding Title}" />
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontStyle="Italic" FontSize="11" Text="{TemplateBinding Description}" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <Rectangle Width="2" Canvas.Left="0" Canvas.Top="0" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BorderColor}" />
+                <TextBlock Width="{TemplateBinding Width}" Canvas.Bottom="0" Padding="3,2,2,2"> 
+                    <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" Text="{TemplateBinding Time}" />
+                </TextBlock>
+            </Canvas>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="TaskTemplateHorizontalCompact"  TargetType="View:Task">
+            <Canvas Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                <Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.ActiveColor}">
+                    <Rectangle.Style>
+                        <Style TargetType="Rectangle">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=View:Task}, Path=IsSelected}"  Value="True">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Rectangle.Style>
+                </Rectangle>
+                <TextBlock Padding="4,4,4,4" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" TextWrapping="WrapWithOverflow">
+                    <TextBlock.Inlines>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Light" FontSize="12" Text="{TemplateBinding Time}" />
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" Text="-"/>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Bold" FontSize="12" Text="{TemplateBinding Title}" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <Rectangle Width="2" Canvas.Left="0" Canvas.Top="0" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BorderColor}" />
+            </Canvas>
+
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="TaskTemplateVertical"  TargetType="View:Task">
+            <Canvas Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                <Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.ActiveColor}">
+                    <Rectangle.Style>
+                        <Style TargetType="Rectangle">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=View:Task}, Path=IsSelected}"  Value="True">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Rectangle.Style>
+                </Rectangle>
+                <TextBlock Padding="4,4,4,4" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" TextWrapping="WrapWithOverflow">
+                    <TextBlock.Inlines>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Light" FontSize="12" Text="{TemplateBinding Time}" />
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" Text="-"/>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Bold" FontSize="12" Text="{TemplateBinding Title}" />
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontStyle="Italic" FontSize="11" Text="{TemplateBinding Description}" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <Rectangle Height="2" Canvas.Top="0" Width="{TemplateBinding Width}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BorderColor}" />
+            </Canvas>
+        </ControlTemplate>
+
+
+        <ControlTemplate x:Key="TaskTemplateVerticalCompact" TargetType="View:Task">
+            <Canvas Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                <Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.ActiveColor}">
+                    <Rectangle.Style>
+                        <Style TargetType="Rectangle">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=View:Task}, Path=IsSelected}"  Value="True">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Rectangle.Style>
+                </Rectangle>
+                <TextBlock Padding="4,4,4,4" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" TextWrapping="WrapWithOverflow">
+                    <TextBlock.Inlines>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Light" FontSize="12" Text="{TemplateBinding Time}" />
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" Text="-"/>
+                        <Run Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" FontWeight="Bold" FontSize="12" Text="{TemplateBinding Title}" />
+                    </TextBlock.Inlines>
+                </TextBlock>
+                <Rectangle Height="2" Canvas.Top="0" Width="{TemplateBinding Width}" Fill="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BorderColor}" />
+            </Canvas>
+        </ControlTemplate>
+    </Window.Resources>
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="{x:Static Properties:Strings.CM_BuildOrders}" AllowDrop="True" ItemsSource="{Binding BuildOrders.List}">
+                <MenuItem.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}" ToolTip="{Binding Description}"/>
+                    </DataTemplate>
+                </MenuItem.ItemTemplate>
+                <MenuItem.ItemContainerStyle>
+                    <Style TargetType="MenuItem">
+                        <Setter Property="Command" Value="{Binding SelectBuildOrder, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                    </Style>
+                </MenuItem.ItemContainerStyle>
+                <!--<MenuItem.ItemTemplate>
+                    
+                    <DataTemplate>
+                        <MenuItem ToolTip="{Binding Description}" Header="{Binding Title}" Command="{Binding SelectBuildOrder, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}" />
+                    </DataTemplate>
+                </MenuItem.ItemTemplate>-->
+            </MenuItem>
+            <Separator/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_NextBO}" InputGestureText="{Binding Path=Settings.Buttons.NextBO.HumanReadable}"
+                     Click="NextBuildOrder_Click"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_PrevBO}" InputGestureText="{Binding Path=Settings.Buttons.PreviousBO.HumanReadable}"
+                     Click="PreviousBuildOrder_Click"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_NextTask}" InputGestureText="{Binding Path=Settings.Buttons.NextTask.HumanReadable}"
+                     Click="NextStep_Click"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_PrevTask}" InputGestureText="{Binding Path=Settings.Buttons.PreviousTask.HumanReadable}"
+                     Click="PreviousStep_Click"/>
+            <!--<MenuItem Header="{x:Static Properties:Strings.CM_AutoStepper}" IsCheckable="True"
+                     />
+            <Grid Width="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,10,0"><Run Text="{x:Static Properties:Strings.CM_Speed}" /><Run Text="1.5"/></TextBlock>
+                <Slider MinWidth="200" Grid.Row="0" Grid.Column="1" Value="1.5" Maximum="2" TickPlacement="None" TickFrequency="0.05" IsSnapToTickEnabled="True"/>
+            </Grid>-->
+            <Separator />
+            <MenuItem Header="{x:Static Properties:Strings.CM_About}"
+                     Click="About_Click"/>
+            <Separator />
+            <MenuItem Header="{x:Static Properties:Strings.CM_ClickThrough}" InputGestureText="{Binding Path=Settings.Buttons.ToggleClickThrough.HumanReadable}"
+                      IsCheckable="True"
+                      IsChecked="{Binding ClickThrough, Mode=TwoWay}"
+                      Checked="ClickThrough_Checked"
+                      Unchecked="ClickThrough_Unchecked"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_AlwaysOnTop}"
+                      IsCheckable="True"
+                      IsChecked="{Binding AlwaysOnTop, Mode=TwoWay}"
+                      Checked="AlwaysOnTop_Checked"
+                      Unchecked="AlwaysOnTop_Unchecked"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_Compact}"
+                      IsCheckable="True"
+                      IsChecked="{Binding Compact, Mode=TwoWay}"
+                      Checked="Compact_Checked"
+                      Unchecked="Compact_Unchecked"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_Vertical}"
+                      IsCheckable="True"
+                      IsChecked="{Binding Vertical, Mode=TwoWay}"
+                      Checked="Vertical_Checked"
+                      Unchecked="Vertical_Unchecked"/>
+            <Separator />
+            <MenuItem Header="{x:Static Properties:Strings.CM_CheckForUpdates}"
+                     Click="Update_Click"/>
+            <MenuItem Header="{x:Static Properties:Strings.CM_Quit}"
+                     Click="Quit_Click"/>
+
+        </ContextMenu>
+    </Window.ContextMenu>
+    <Canvas Width="{Binding Width}" Height="{Binding Height}">
+
+        <ItemsControl x:Name="TaskContainer" Canvas.Left="{Binding Path=ScrollLeft}" Canvas.Top="{Binding Path=ScrollTop}" ItemsSource="{Binding Path=BuildOrders.Current.Queue}">
+            <!-- TODO: Add this when not all tasks fit in the window -->
+            <!--<ItemsControl.OpacityMask>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Color="Transparent" Offset="0.0" />
+                    <GradientStop Color="White" Offset="0.05" />
+                    <GradientStop Color="Black" Offset="0.95" />
+                    <GradientStop Color="Transparent" Offset="1" />
+                </LinearGradientBrush>
+            </ItemsControl.OpacityMask>-->
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel>
+                        <StackPanel.Style>
+                            <Style TargetType="StackPanel">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="True">
+                                        <Setter Property="Orientation" Value="Vertical"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="False">
+                                        <Setter Property="Orientation" Value="Horizontal"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </StackPanel.Style>
+                    </StackPanel>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <View:Task
+                              IsSelected="{Binding IsSelected}"
+                              Title="{Binding Title}"
+                              Description="{Binding Description}" 
+                              Time="{Binding ReadableTime}">
+                        <View:Task.Style>
+                            <Style TargetType="View:Task">
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="False"/>
+                                            <Condition Binding="{Binding Compact, RelativeSource={RelativeSource AncestorType=Window}}" Value="False"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <MultiDataTrigger.Setters>
+                                            <Setter Property="Template" Value="{StaticResource TaskTemplateHorizontal}"/>
+                                            <Setter Property="Width" Value="{Binding PanelWidth, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                            <Setter Property="Height" Value="{Binding Height, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                        </MultiDataTrigger.Setters>
+                                    </MultiDataTrigger>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="False"/>
+                                            <Condition Binding="{Binding Compact, RelativeSource={RelativeSource AncestorType=Window}}" Value="True"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <MultiDataTrigger.Setters>
+                                            <Setter Property="Template" Value="{StaticResource TaskTemplateHorizontalCompact}"/>
+                                            <Setter Property="Width" Value="{Binding PanelWidth, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                            <Setter Property="Height" Value="{Binding Height, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                        </MultiDataTrigger.Setters>
+                                    </MultiDataTrigger>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="True"/>
+                                            <Condition Binding="{Binding Compact, RelativeSource={RelativeSource AncestorType=Window}}" Value="True"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <MultiDataTrigger.Setters>
+                                            <Setter Property="Template" Value="{StaticResource TaskTemplateVerticalCompact}"/>
+                                            <Setter Property="Height" Value="{Binding PanelHeight, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                            <Setter Property="Width" Value="{Binding Width, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                        </MultiDataTrigger.Setters>
+                                    </MultiDataTrigger>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding Vertical, RelativeSource={RelativeSource AncestorType=Window}}" Value="True"/>
+                                            <Condition Binding="{Binding Compact, RelativeSource={RelativeSource AncestorType=Window}}" Value="False"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <MultiDataTrigger.Setters>
+                                            <Setter Property="Height" Value="{Binding PanelHeight, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                            <Setter Property="Width" Value="{Binding Width, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                                            <Setter Property="Template" Value="{StaticResource TaskTemplateVertical}"/>
+                                        </MultiDataTrigger.Setters>
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </View:Task.Style>
+                    </View:Task>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Grid Opacity="1" Margin="5,5,5,5" Visibility="{Binding TitleVisibility}">
+            <Grid.Background>
+                <SolidColorBrush Color="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BackgroundColor}" Opacity="0.5"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Width="32" Height="32">
+                <Image.Source>
+                    <BitmapImage UriSource="pack://application:,,,/Resources/logo.png" />
+                    <!-- <BitmapImage  UriSource="{x:Static Properties:Images.Logo}" /> For some reason this breaks-->
+                </Image.Source>
+            </Image>
+            <TextBlock Foreground="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.FontColor}" VerticalAlignment="Center" Margin="5,0,0,0" Grid.Column="1" FontSize="20" Text="{Binding TitleMessage, FallbackValue={x:Static Properties:Strings.AppName}}"/>
+        </Grid>
+        <Rectangle Canvas.Top="0" Canvas.Left="0" Width="{Binding Width, RelativeSource={RelativeSource AncestorType=Window}}" Height="{Binding Height, RelativeSource={RelativeSource AncestorType=Window}}" Stroke="{Binding RelativeSource={RelativeSource AncestorType=View:MainWindow}, Path=Settings.BorderColor}" StrokeThickness="3"/>
+    </Canvas>
+</Window>

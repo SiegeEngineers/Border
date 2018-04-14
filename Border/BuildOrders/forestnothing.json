@@ -1,0 +1,60 @@
+﻿{
+  "revision": 1,
+  "date": "2018-04-01T21:53:57.2207517Z",
+  "game_versions": [ "AoE2 HD5.7" ],
+  "author": "Raybingo/aP",
+  "build_orders": [
+    {
+      "title": "Forest Nothing (Huns)",
+      "description": "A Build Order for Forest Nothing played as Huns. Huns don't need houses making them a perfect civ for this map because of the lack of space. They do lack Siege Onagers however, requiring Trebs for cutting roads between allies. At the start assign a 'cutter' who will make these paths. A good alternative civ for this is Celts, since they have Siege Onagers. ",
+      "queue": [
+        {
+          "description": "Chop Bottom Right 3x3 Area: Pro Lumber Micro ENGAGE!",
+          "title": "3+3->Bottom Right, 2 Vils per tree (3/3)",
+          "time": 0
+        },
+        {
+          "title": "1->Upper Right (4/4)",
+          "description": "Next Vil chops the Upper Right 3x3 area.",
+          "time": 75
+        },
+        {
+          "title": "Mill on 3x3 Space (5/5)",
+          "description": "Build a Mill in the Bottom Right 3x3 area. ",
+          "time": 520
+        },
+        {
+          "title": "Delete Mill, Build Farm",
+          "description": "When the Mill is done, delete it. We unlocked farms and reclaim the Mill space with a Farm.",
+          "time": 512
+        },
+        {
+          "title": "6 Vils->Upper Right 3x3 Area",
+          "description": "With one Vil on the Farm",
+          "time": 521
+        },
+        {
+          "title": "Start Building Vils->Wood",
+          "description": "When you reached 50 food immediately queue a vil. Continue cutting 3x3 areas close to the TC. ",
+          "time": 683
+        },
+        {
+          "time": 900,
+          "title": "Second Farm",
+          "description": "You get the idea, keep doing this."
+
+        },
+        {
+          "description": "Make sure you have a Mill and Lumbercamp then go up. Communicate with your team to pinpoint the exact time to go up.",
+          "time": 3000,
+          "title": "Feudal Age"
+        },
+        {
+          "time": 3130,
+          "title": "Market & Coinage",
+          "description": "Build a Market, research Coinage and sling your assigned 'cutter' by sending him resources to get him to Imp.'"
+        }
+      ]
+    }
+  ]
+}
