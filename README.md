@@ -1,5 +1,5 @@
 # Border
-Border is a simple overlay for RTS games (such as Age of Empires 2) for displaying build orders on top of the game. It is mainly intended for new players or getting help playing new maps. This will help you to learn the strategies that are used online. You might find features that are tailored to Age of Empires 2, since it was the reason for my to build this.
+Border is a simple overlay for RTS games (such as Age of Empires 2) for displaying build orders on top of the game. It is mainly intended for new players or getting help playing new maps. This will help you to learn the strategies that are used online. You might find features that are tailored to Age of Empires 2, since it was the reason for my to build this. For Starcraft 2 there is a widelyused [commercial app](https://lotv.spawningtool.com/build/).
 
 If you have no idea what a Build Order is or don't know what the app means, check out [this](https://github.com/abductedPlatypus/border/wiki/build-orders) for a short read.
 
