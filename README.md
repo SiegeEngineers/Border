@@ -34,6 +34,9 @@ Yes, it does require a bit (straightforward) of editing a textfile (e.g. Notepad
 
 If you made great build orders you and would like to donate them to this app [open an issue](https://github.com/abductedPlatypus/Border/issues/new).
 
+### I want to change some hotkeys and some colours. How do I do that?
+You can edit the settings.json file with a text editor. Which will allow you to modify the values. You can get the key codes [from this page](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx), use the codes that look like `0x01`.
+
 ### How do I know if there is a new version?
 The app will bug you about it.
 
