@@ -36,9 +36,7 @@ If you made great build orders you and would like to donate them to this app [op
 The app will bug you about it.
 
 ### Your Build Orders Suck
-FeelsDautMan.  
-
-But see ___Can I add my own Build Orders?___
+[FeelsDautMan.](https://github.com/abductedPlatypus/border/wiki/add-build-orders)  
 
 ### All Hail King DauT!
 _Amen_
