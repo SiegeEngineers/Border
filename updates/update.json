@@ -2,19 +2,26 @@
   "name": "Border",
   "author": "abductedPlatypus",
   "latest": {
-    "id": 1,
-    "date": "2018-01-14T21:53:57.2207517Z",
-    "name": "0.1-alpha",
-    "link": "https://github.com/abductedPlatypus/Border/releases/tag/0.1-alpha",
-    "description": "Initial Release"
-  },
-  "history": [
-    {
-      "id": 1,
-      "date": "2018-01-14T21:53:57.2207517Z",
-      "name": "0.1-alpha",
-      "link": "https://github.com/abductedPlatypus/Border/releases/tag/0.1-alpha",
-      "description": "Initial Release"
-    }
-  ] 
-}
+      "id": 2,
+      "date": "2018-04-16T20:56:00.0000000Z",
+      "name": "0.2-alpha",
+      "link": "https://github.com/abductedPlatypus/Border/releases/tag/0.2-alpha",
+      "description": "Slightly Updated Default Build Orders"
+    },
+    "history": [
+      {
+        "id": 2,
+        "date": "2018-04-16T20:56:00.0000000Z",
+        "name": "0.2-alpha",
+        "link": "https://github.com/abductedPlatypus/Border/releases/tag/0.2-alpha",
+        "description": "Slightly Updated Default Build Orders"
+      },
+      {
+        "id": 1,
+        "date": "2018-04-14T21:53:57.2207517Z",
+        "name": "0.1-alpha",
+        "link": "https://github.com/abductedPlatypus/Border/releases/tag/0.1-alpha",
+        "description": "Initial Release"
+      }
+    ]
+  }
