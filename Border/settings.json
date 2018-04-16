@@ -34,7 +34,7 @@
     },
     "NextTask": {
       "HumanReadable": "Alt+Space",
-      "KeyCode": "0x20  ",
+      "KeyCode": "0x20",
       "Shift": false,
       "Control": false,
       "Alt": true

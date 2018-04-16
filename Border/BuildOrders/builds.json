@@ -137,12 +137,17 @@
         {
           "time": 325,
           "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (20/21)"
+          "title": "2->Sheep/Boar under TC (18/21)"
+        },
+        {
+          "time": 375,
+          "description": "Send two more villagers to Wood.",
+          "title": "2->Wood (20/21)"
         },
         {
           "time": 425,
           "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "3->Wood (23/24)"
+          "title": "3->Lumbercamp->Wood (23/24)"
         },
         {
           "time": 500,
@@ -157,16 +162,16 @@
         {
           "time": 655,
           "title": "2 Archery Ranges, Wood Upgrade",
-          "description": "Then quickly buildtwo Archery Ranges with 2 Vils, and research some Economy upgrades"
+          "description": "Then quickly an Archery Ranges with 2 Vils, and research some Economy upgrades"
         },
         {
           "time": 656,
-          "title": "3->Farms (26/27)",
-          "description": "More Farms. Also build at least 2 Houses. Berry Vils should also go to Farms."
+          "title": "3->Gold (26/27)",
+          "description": "Send your first Feudal Vils to Gold. Berry Vils should go to Farms when done."
         },
         {
           "time": 730,
-          "title": "6->Food, 2->Gold (34/35)",
+          "title": "6->Food (34/35)",
           "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
         },
         {
@@ -238,17 +243,27 @@
         {
           "time": 401,
           "description": "Add 2 more Vils to Wood.",
-          "title": "2->Wood (21/22)"
+          "title": "2->Wood (21/25)"
         },
         {
           "time": 450,
           "description": "Add 2 more Vils to Gold.",
-          "title": "2->Gold (23/24)"
+          "title": "2->House->Gold (23/27)"
         },
         {
           "time": 500,
           "description": "Add 2 more Vils to Food.",
-          "title": "2->Wood (25/26)"
+          "title": "2->Wood (25/29)"
+        },
+        {
+          "time": 550,
+          "description": "Brace for revenge.",
+          "title": "Loom"
+        },
+        {
+          "time": 575,
+          "description": "Time to go up.",
+          "title": "Fedual Age"
         },
         {
           "time": 550,
@@ -419,8 +434,8 @@
         },
         {
           "time": 480,
-          "description": "4 Boar Vils To Stone, 4 To Opponent. Make sure you properly scouted the area. You will want to place a Tower on his main Gold.",
-          "title": "Boar Vils: 4 Stone, 4 Opponent"
+          "description": "4 Boar/Sheep Vils To Stone, 4-6 To Opponent. Make sure you properly scouted the area. You will want to place a Tower on his main Gold.",
+          "title": "Boar Vils: 4 Stone, 4-6 Opponent"
         },
         {
           "time": 580,
@@ -429,8 +444,13 @@
         },
         {
           "time": 605,
-          "description": "Quickly build a Tower in range of his main Gold, if possible also target his Stone. Use your Scout to harras Vils building a counter-Tower, so yours is up first.",
+          "description": "Quickly build a Tower in range of his main Gold to halt unit production, try to also be able to target other resources. Use your Scout to harras Vils building a counter-Tower, so yours is up first.",
           "title": "Tower Main Gold"
+        },
+        {
+          "time": 645,
+          "description": "Build another Tower in range of your first, it should target another resource, e.g. Stone to halt counter-Towers or Wood to slow Unit and Farm production.",
+          "title": "Tower Second Resource"
         }
       ]
     },
@@ -451,77 +471,82 @@
         {
           "time": 75,
           "description": "Build 4 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep and another woodline.",
-          "title": "5->Wood (11/0/12)"
+          "title": "4->Wood (10/0/11)"
+        },
+        {
+          "time": 175,
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (11/0/12)"
+        },
+        {
+          "time": 200,
+          "description": "Add one more Vil to Wood and build a House.",
+          "title": "1->Wood (12/0/13)"
+        },
+        {
+          "time": 225,
+          "description": "Build a Dock, then send the Vil to Food.",
+          "title": "1->Dock->Food (13/0/14)"
         },
         {
           "time": 250,
-          "description": "Build the Dock, followed by a House. Then send the Vil to Food.",
-          "title": "1->Dock, House, Food (12/0/13)"
-        },
-        {
-          "time": 275,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (13/0/14)"
-        },
-        {
-          "time": 290,
-          "description": "When your Dock is done get 4 Fishing Ships",
-          "title": "4 Fishing Ships(13/4/18)"
-        },
-        {
-          "time": 300,
           "description": "More Food and a House",
-          "title": "3->Food & House (16/4/24)"
+          "title": "3->Food & House (16/0/17)"
         },
         {
-          "time": 375,
-          "description": "Get your second Boar. Also build a House.",
-          "title": "1->Second Boar & House (17/4/25)"
+          "time": 270,
+          "description": "When your Dock is done get 4 Fishing Ships. Make sure they fish in deep water.",
+          "title": "4 Fishing Ships (16/4/21)"
         },
         {
-          "time": 400,
+          "time": 325,
+          "description": "Get your second Boar.",
+          "title": "1->Second Boar (17/4/22)"
+        },
+        {
+          "time": 350,
           "description": "More on Food, use your Scout to chase some Deer to your TC.",
-          "title": "2->Food (19/4/27)"
+          "title": "3->Food (20/4/25)"
+        },
+        {
+          "time": 425,
+          "description": "Get Loom if connected by land to your opponent, otherwise get another Vil",
+          "title": "Loom or Vil->Wood"
         },
         {
           "time": 450,
-          "description": "Get Loom if connected by land to your opponent, otherwise go up.",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "description": "Go up.",
+          "description": "Go up. Don't forget to build a House so we can get our Galleys up right away.",
           "title": "Feudal Age"
         },
         {
-          "time": 480,
+          "time": 505,
           "description": "Food Vils: 5 to Gold, Rest Wood on second Lumbercamp. ",
           "title": "5 from Food to Gold, Rest Wood"
         },
         {
-          "time": 500,
-          "description": "Build 2 more Docks",
-          "title": "Build 2 more Docks"
+          "time": 545,
+          "description": "Build an extra Dock.",
+          "title": "Build an 1 more Dock"
         },
         {
-          "time": 605,
-          "description": "Feudal Researched: Wood Upgrade, Blacksmith",
-          "title": "Wood Upgrade, Blacksmith."
+          "time": 580,
+          "description": "Feudal Researched: Wood Upgrade",
+          "title": "Galleys & Wood Upgrade, Vils->Wood"
+        },
+        {
+          "time": 615,
+          "description": "Build an extra Dock and a Blacksmith to upgrade your Galleys.",
+          "title": "Dock, Blacksmith"
         },
         {
           "time": 606,
-          "description": "All Vils to Wood, Keep Building Fishing Ships, and start buildinga lot of Galleys from 2 Docks. Harras the enemy Fishing Ships and gain control over water.",
-          "title": "All->Wood, Many Fishing Ships, Many Galleys"
+          "description": "Start building lot of (Fire) Galleys from 2 Docks. 4 Fishing ships should be enough for you Vil creation, so they have lower priority. Harras the enemy Fishing Ships and gain control over water. Most Vils should go to Wood, some to Gold.",
+          "title": "Galleys, some Fishing Ships"
         },
         {
           "time": 655,
-          "description": "Upgrade to  your Galleys",
+          "description": "Upgrade to your Galleys",
           "title": "Fletching"
-        },
-        {
-          "time": 700,
-          "description": "Upgrade your Galleys",
-          "title": "If lost Fishing Ships: Berries"
         }
       ]
     }
