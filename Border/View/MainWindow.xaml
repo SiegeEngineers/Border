@@ -190,7 +190,7 @@
                       IsChecked="{Binding ClickThrough, Mode=TwoWay}"
                       Checked="ClickThrough_Checked"
                       Unchecked="ClickThrough_Unchecked"/>
-            <MenuItem Header="{x:Static Properties:Strings.CM_AlwaysOnTop}"
+            <MenuItem Header="{x:Static Properties:Strings.CM_AlwaysOnTop}" InputGestureText="{Binding Path=Settings.Buttons.ToggleAlwaysOnTop.HumanReadable}"
                       IsCheckable="True"
                       IsChecked="{Binding AlwaysOnTop, Mode=TwoWay}"
                       Checked="AlwaysOnTop_Checked"

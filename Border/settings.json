@@ -45,7 +45,13 @@
       "Shift": false,
       "Control": true,
       "Alt": true
-
+    },
+    "ToggleAlwaysOnTop": {
+      "HumanReadable": "Alt+Ctrl+\\",
+      "KeyCode": "0xDC",
+      "Shift": false,
+      "Control": true,
+      "Alt": true
     }
   },
   "X": 5,

@@ -1,47 +1,47 @@
-﻿{
+{
   "revision": 1,
   "date": "2018-04-01T21:53:57.2207517Z",
   "game_versions": [ "AoE2 HD5.7" ],
-  "author": "aP",
+  "author": "abductedPlatypus",
   "build_orders": [
     {
       "title": "Scout Rush",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
+      "description": "A well known build order for a Scout Rush (Scrush). You must go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some Villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
       "queue": [
         {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
+          "description": "Queue 3 Vils, Build two Hhouses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
           "time": 0,
           "title": "Queue Vils, 2+1->2 Houses (3/4)"
         },
         {
           "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
           "title": "3+3->Sheep (6/7)"
         },
         {
           "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
+          "description": "Build 3 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep, your berries and another woodline.",
           "title": "3->Wood (9/10)"
         },
         {
           "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
           "title": "1->Boar (10/11)"
         },
         {
           "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
+          "description": "Build a House and a Mill and gather berries.",
           "title": "3->Berries (13/14)"
         },
         {
           "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
+          "description": "Get the second Boar. Also build 2 Farms on the upper and lower right TC spots with hurt Vils.",
           "title": "1->Boar (14/15)"
         },
         {
           "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
+          "title": "1->Berries (15/16)",
+          "description": "Don't forget to build another house with a Wood Vil."
         },
         {
           "time": 300,
@@ -55,572 +55,26 @@
         },
         {
           "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
+          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed Sheep), you could research it earlier",
           "title": "Loom"
         },
         {
           "time": 475,
-          "title": "Feudal Age",
+          "title": "Feudal Age, 3 from Sheep to Wood, Rest Farms",
           "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
         },
         {
           "time": 605,
           "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
+          "description": "Then quickly build a Stable with 2 Vils, and research some Economy upgrades"
         },
         {
           "time": 606,
           "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
+          "description": "More Farms. Also build at least 2 Houses. Berry Vils should also go to Farms."
         },
         {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Archer Rush WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Fast Castle (Boom) WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Fast Castle (Knights) WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Drush, Fast Castle WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Tower Rush WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
-        },
-        {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
-        }
-    	]
-  	},
-    {
-      "title": "Persion Douche WIP",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
-      "queue": [
-        {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
-          "time": 0,
-          "title": "Queue Vils, 2+1->2 Houses (3/4)"
-        },
-        {
-          "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
-          "title": "3+3->Sheep (6/7)"
-        },
-        {
-          "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
-        },
-        {
-          "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
-        },
-        {
-          "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
-          "title": "1->Boar (14/15)"
-        },
-        {
-          "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
-        },
-        {
-          "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
-        },
-        {
-          "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
-          "title": "2->Wood (21/22)"
-        },
-        {
-          "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
-          "title": "Loom"
-        },
-        {
-          "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
-        },
-        {
-          "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
-        },
-        {
-          "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
-        },
-        {
-          "time": 648,
+          "time": 643,
           "title": "4 Scouts (24/29)",
           "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
         },
@@ -642,93 +96,432 @@
       ]
     },
     {
-      "title": "Fast Imperial",
-      "description": "A well known build order for a Scrush. You must quickly go to Feudal age to build scouts to harras the enemy base by idling the economy and picking off some villagers. If you civ starts with an Eagle Scout you cannot do this Build Order.",
+      "title": "Archer Rush",
+      "description": "A well known build order for a Archer Rush (Scrush). You must go to Feudal age to build archers to harras the enemy base by idling the economy and picking off some Villagers.",
       "queue": [
         {
-          "description": "Queue 3 Vils, 2+1->2 houses. Quickly find you first 4 sheep.",
+          "description": "Queue 3 Vils, Build two Houses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
           "time": 0,
           "title": "Queue Vils, 2+1->2 Houses (3/4)"
         },
         {
           "time": 18,
-          "description": "If you havn't found your sheep yet, cut the straggler trees.",
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
           "title": "3+3->Sheep (6/7)"
         },
         {
           "time": 75,
-          "description": "3 Vils to wood. First one builds a Lumbercamp. Make sure you find both boars, 4 more sheep, your berries and another woodline.",
-          "title": "3->Wood (9/10)"
-        },
-        {
-          "time": 150,
-          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
-          "title": "1->Boar (10/11)"
+          "description": "Build 4 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep, your berries and another woodline.",
+          "title": "4->Wood (10/11)"
         },
         {
           "time": 175,
-          "description": "Build a Mill and gather berries. Also build a house with a Wood or Berry Vil.",
-          "title": "3->Berries (13/14)"
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (11/12)"
+        },
+        {
+          "time": 200,
+          "description": "Build a House and a Mill and gather berries.",
+          "title": "2->Berries (13/14)"
         },
         {
           "time": 250,
-          "description": "Get the second Boar. Also build 2 farms on the upper and lower right TC spots with hurt villagers.",
+          "description": "Get the second Boar. Also build 2 Farms on the upper and lower right TC spots with hurt Vils.",
           "title": "1->Boar (14/15)"
         },
         {
           "time": 275,
-          "title": "1->Berry (15/16)",
-          "description": "Don't forget to build another house."
+          "title": "2->Berries (16/17)",
+          "description": "Don't forget to build another house with a Wood Vil."
+        },
+        {
+          "time": 325,
+          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
+          "title": "4->Sheep/Boar under TC (20/21)"
+        },
+        {
+          "time": 425,
+          "description": "Build a second Lumbercamp at another Wood line.",
+          "title": "3->Wood (23/24)"
+        },
+        {
+          "time": 500,
+          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed Sheep), you could research it earlier",
+          "title": "Loom"
+        },
+        {
+          "time": 525,
+          "title": "Feudal Age",
+          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep/Berry Vils are done move 2 to Gold, 4 to Wood and the rest to Farms."
+        },
+        {
+          "time": 655,
+          "title": "2 Archery Ranges, Wood Upgrade",
+          "description": "Then quickly buildtwo Archery Ranges with 2 Vils, and research some Economy upgrades"
+        },
+        {
+          "time": 656,
+          "title": "3->Farms (26/27)",
+          "description": "More Farms. Also build at least 2 Houses. Berry Vils should also go to Farms."
+        },
+        {
+          "time": 730,
+          "title": "6->Food, 2->Gold (34/35)",
+          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
+        },
+        {
+          "time": 733,
+          "title": "4-6 Archers (34/39)",
+          "description": "Build 4-6 Archers. When done attack the enemy Vils. Keep away from the TC and Skirmishers. Cause idle time and kill vils."
+        },
+        {
+          "time": 930,
+          "title": "Blacksmith, Fletching, Wheelbarrow",
+          "description": "Add Fletching to increase Archer damage, and wheelbarrow to make Vils a bit more efficient."
+        }
+      ]
+    },
+    {
+      "title": "Dark Age Rush",
+      "description": "Drush adds a few early militia. This is often a good idea if your resources are in unsafe (forward) position, so you can delay a potential Scout or Archer Rush that would be more effective against you. After reaching Feudal decide to continue with another strategy, Archers, Scouts or a FC.",
+      "queue": [
+        {
+          "description": "Queue 3 Vils, Build two Houses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
+          "time": 0,
+          "title": "Queue Vils, 2+1->2 Houses (3/4)"
+        },
+        {
+          "time": 18,
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
+          "title": "3+3->Sheep (6/7)"
+        },
+        {
+          "time": 75,
+          "description": "Build 4 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep, your berries and another woodline.",
+          "title": "4->Wood (10/11)"
+        },
+        {
+          "time": 175,
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (11/12)"
+        },
+        {
+          "time": 200,
+          "description": "Build a House and a Mill and gather berries.",
+          "title": "3->Berries (14/15)"
+        },
+        {
+          "time": 275,
+          "description": "Get the second Boar. Also build 2 Farms on the upper and lower right TC spots with hurt Vils.",
+          "title": "1->Boar (15/16)"
         },
         {
           "time": 300,
-          "description": "By now you should have found all your resources, and be on your way to scout your opponent(s).",
-          "title": "4->Sheep/Boar under TC (19/20)"
+          "title": "1->Berries (16/17)",
+          "description": "Omnomnom!"
+        },
+        {
+          "time": 325,
+          "title": "1->House->Barracks->10 Gold->Food (17/18)",
+          "description": "Next Vil builds a House, then a Barracks, then gets exactly 10 Gold and ends up with Sheep or Deer (if you feel you can handle it)."
+        },
+        {
+          "time": 350,
+          "description": "Next 2 go to Sheep or Deer.",
+          "title": "2->Sheep/Deer (19/20)"
         },
         {
           "time": 400,
-          "description": "Build a second Lumbercamp at another Wood line.",
+          "title": "3 Militia (19/22)",
+          "description": "Build 3 Militia. When done send them out, so make sure you found your opponent's location and idle their Vils."
+        },
+        {
+          "time": 401,
+          "description": "Add 2 more Vils to Wood.",
           "title": "2->Wood (21/22)"
         },
         {
           "time": 450,
-          "description": "(recommended) This is a great time to get Loom. If you are having trouble with keeping your TC busy (e.g. you missed sheep), you could research it earlier",
+          "description": "Add 2 more Vils to Gold.",
+          "title": "2->Gold (23/24)"
+        },
+        {
+          "time": 500,
+          "description": "Add 2 more Vils to Food.",
+          "title": "2->Wood (25/26)"
+        },
+        {
+          "time": 550,
+          "title": "Decide what to do next.",
+          "description": "Around this time you have to plan your next strategy, which you can base of your opponent. If you feel you have delayed your opponent enough, a Fast Castle might be a great idea. If you have to defend getting Loom and going up and making Spearmen or Skirmishers might work. Otherwise get more Militia and upgrade to Men-At-Arms."
+        }
+      ]
+    },
+    {
+      "title": "Fast Castle",
+      "description": "Fast Castle is a quick way to get to the Castle Age. This is often followed by either Knights or Booming to get a very strong economy.",
+      "queue": [
+        {
+          "description": "Queue 3 Vils, Build two Houses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
+          "time": 0,
+          "title": "Queue Vils, 2+1->2 Houses (3/4)"
+        },
+        {
+          "time": 18,
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
+          "title": "3+3->Sheep (6/7)"
+        },
+        {
+          "time": 75,
+          "description": "Build 4 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep, your berries and another woodline.",
+          "title": "4->Wood (10/11)"
+        },
+        {
+          "time": 175,
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (11/12)"
+        },
+        {
+          "time": 200,
+          "description": "Build a House and a Mill and gather berries.",
+          "title": "3->Berries (14/15)"
+        },
+        {
+          "time": 275,
+          "description": "Get the second Boar. Also build 2 Farms on the upper and lower right TC spots with hurt Vils.",
+          "title": "1->Boar (15/16)"
+        },
+        {
+          "time": 300,
+          "title": "1->Berries, Build a House  (16/17)",
+          "description": "Omnomnom!"
+        },
+        {
+          "time": 325,
+          "description": "Next 3 go to Sheep.",
+          "title": "3->Sheep (19/20)"
+        },
+        {
+          "time": 400,
+          "title": "3->Wood, Build a House  (22/23)",
+          "description": "More Vils to Wood."
+        },
+        {
+          "time": 475,
+          "title": "3->Gold (25/26)",
+          "description": "Build a Mining Camp and mine Gold."
+        },
+        {
+          "time": 425,
+          "title": "Deer with 4 Sheep Vils",
+          "description": "Build a Mill next to the Deer, or use your Scout to chase them to your TC."
+        },
+        {
+          "time": 450,
+          "title": "Idle Vils -> 4 Farms, Rest->Wood",
+          "description": "When your Sheep Vils are done make 4 extra Farms, and send the rest to get Wood."
+        },
+        {
+          "time": 575,
+          "title": "Loom",
+          "description": "Keep an eye on your opponent's plans."
+        },
+        {
+          "time": 600,
+          "title": "Feudal Age",
+          "description": "Also decide to go either Knights or Boom."
+        },
+        {
+          "time": 730,
+          "title": "If Boom: Gold Vils to Wood",
+          "description": "If you want to Boom you only need 200 Gold to go up, if you want to go Knights you will need more Gold."
+        },
+        {
+          "time": 730,
+          "title": "2 Wood Vils Market, 1 Vil Blacksmith",
+          "description": "Upon reaching Feudal age instantly build 2 Markets and 1 Blacksmith"
+        },
+        {
+          "time": 731,
+          "title": "2 -> Wood (27/28)",
+          "description": "Upon reaching Feudal age build 2 Vils. "
+        },
+        {
+          "time": 750,
+          "title": "if > 800 Food: Get Wood Upgrade",
+          "description": "You will need this to quickly get a lot of Wood and get map control in the Castle Age."
+        },
+        {
+          "time": 780,
+          "title": "Castle Age",
+          "description": "When your buildings are ready go to the Castle Age."
+        }
+      ]
+    },
+    {
+      "title": "Tower Rush",
+      "description": "In a Trush you have to gather Stone so you can build several towers near the opponents vital resources. This is a often used strategy when playing civs such as Koreans.",
+      "queue": [
+        {
+          "description": "Queue 3 Vils, Build two Houses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
+          "time": 0,
+          "title": "Queue Vils, 2+1->2 Houses (3/4)"
+        },
+        {
+          "time": 18,
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
+          "title": "3+3->Sheep (6/7)"
+        },
+        {
+          "time": 75,
+          "description": "Build 3 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep and your Berries.",
+          "title": "3->Wood (9/10)"
+        },
+        {
+          "time": 150,
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (10/11)"
+        },
+        {
+          "time": 175,
+          "description": "Build a House and a Mill and gather berries.",
+          "title": "3->Berries (13/14)"
+        },
+        {
+          "time": 250,
+          "description": "Get the second Boar.",
+          "title": "1->Boar (14/15)"
+        },
+        {
+          "time": 275,
+          "title": "1->Berries (15/16)",
+          "description": "Don't forget to build another house with a Wood Vil."
+        },
+        {
+          "time": 300,
+          "description": "By now you should have found all your resources, and be on your way to scout your opponent.",
+          "title": "3->Sheep/Boar under TC (18/19)"
+        },
+        {
+          "time": 375,
+          "description": "Don't build another Lumbercamp, you will need your Wood.",
+          "title": "3->Wood (21/22)"
+        },
+        {
+          "time": 450,
+          "description": "Loom",
           "title": "Loom"
         },
         {
           "time": 475,
-          "title": "Feudal Age",
-          "description": "Build a Barracks and another house with a Wood Vil. When your Sheep Vils are done move 3 of them to Wood and the rest to Farms."
+          "description": "Feudal Age",
+          "title": "Feudal Age"
+        },
+        {
+          "time": 480,
+          "description": "4 Boar Vils To Stone, 4 To Opponent. Make sure you properly scouted the area. You will want to place a Tower on his main Gold.",
+          "title": "Boar Vils: 4 Stone, 4 Opponent"
+        },
+        {
+          "time": 580,
+          "description": "If your Vils arrive early, build a House, otherwise build one at home.",
+          "title": "House"
         },
         {
           "time": 605,
-          "title": "Stable, Wood Upgrade",
-          "description": "Then Quickly build a Stable with 2 Vils, and research some Economy upgrades"
+          "description": "Quickly build a Tower in range of his main Gold, if possible also target his Stone. Use your Scout to harras Vils building a counter-Tower, so yours is up first.",
+          "title": "Tower Main Gold"
+        }
+      ]
+    },
+    {
+      "title": "Galley Rush",
+      "description": "The Grush is a great strategy on Water maps to harras the opponents Fishing ships.",
+      "queue": [
+        {
+          "description": "Queue 3 Vils, Build two Houses, one with 2 Vils and the other with 1. Quickly scout your first 4 Sheep.",
+          "time": 0,
+          "title": "Queue Vils, 2+1->2 Houses (3/0/4)"
+        },
+        {
+          "time": 18,
+          "description": "The original 3 build Vils + 3 new ones must gather food from Sheep. If you haven't found your Sheep yet, cut the straggler trees.",
+          "title": "3+3->Sheep (6/0/7)"
+        },
+        {
+          "time": 75,
+          "description": "Build 4 Vils and send them to Wood. First one builds a Lumbercamp. Make sure you scout both boars, 4 more Sheep and another woodline.",
+          "title": "5->Wood (11/0/12)"
+        },
+        {
+          "time": 250,
+          "description": "Build the Dock, followed by a House. Then send the Vil to Food.",
+          "title": "1->Dock, House, Food (12/0/13)"
+        },
+        {
+          "time": 275,
+          "description": "Lure the Boar by attacking it twice and going back to TC. Deposit Food from Sheep Vils and attack the Boar when close. Garrison the damaged boar Vil until safe.",
+          "title": "1->Boar (13/0/14)"
+        },
+        {
+          "time": 290,
+          "description": "When your Dock is done get 4 Fishing Ships",
+          "title": "4 Fishing Ships(13/4/18)"
+        },
+        {
+          "time": 300,
+          "description": "More Food and a House",
+          "title": "3->Food & House (16/4/24)"
+        },
+        {
+          "time": 375,
+          "description": "Get your second Boar. Also build a House.",
+          "title": "1->Second Boar & House (17/4/25)"
+        },
+        {
+          "time": 400,
+          "description": "More on Food, use your Scout to chase some Deer to your TC.",
+          "title": "2->Food (19/4/27)"
+        },
+        {
+          "time": 450,
+          "description": "Get Loom if connected by land to your opponent, otherwise go up.",
+          "title": "Loom"
+        },
+        {
+          "time": 475,
+          "description": "Go up.",
+          "title": "Feudal Age"
+        },
+        {
+          "time": 480,
+          "description": "Food Vils: 5 to Gold, Rest Wood on second Lumbercamp. ",
+          "title": "5 from Food to Gold, Rest Wood"
+        },
+        {
+          "time": 500,
+          "description": "Build 2 more Docks",
+          "title": "Build 2 more Docks"
+        },
+        {
+          "time": 605,
+          "description": "Feudal Researched: Wood Upgrade, Blacksmith",
+          "title": "Wood Upgrade, Blacksmith."
         },
         {
           "time": 606,
-          "title": "3->Farms (24/25)",
-          "description": "More Farms. Also Build at least 2 Houses. Berry Vils should also go to Farms."
+          "description": "All Vils to Wood, Keep Building Fishing Ships, and start buildinga lot of Galleys from 2 Docks. Harras the enemy Fishing Ships and gain control over water.",
+          "title": "All->Wood, Many Fishing Ships, Many Galleys"
         },
         {
-          "time": 648,
-          "title": "4 Scouts (24/29)",
-          "description": "Build 4-6 Scouts. When done attack the enemy Vils. Keep away from the TC and Spearmen. Cause idle time and kill vils."
+          "time": 655,
+          "description": "Upgrade to  your Galleys",
+          "title": "Fletching"
         },
         {
-          "time": 680,
-          "title": "8->Gold (32/37)",
-          "description": "Make sure you continue building an army, based on what the enemies are building and your Civ's strengths. We need gold for that."
-        },
-        {
-          "time": 755,
-          "title": "2 Archery Ranges, Blacksmith",
-          "description": "Build More Buildings so you can follow-up or defend. Upgrade either Archers or Cavalry, based on the situation and Civ."
-        },
-        {
-          "time": 880,
-          "title": "Wheelbarrow",
-          "description": "Makes all your Vils a bit more efficient."
+          "time": 700,
+          "description": "Upgrade your Galleys",
+          "title": "If lost Fishing Ships: Berries"
         }
       ]
     }

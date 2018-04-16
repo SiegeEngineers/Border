@@ -147,7 +147,9 @@
         [JsonProperty("PreviousTask", NullValueHandling = NullValueHandling.Ignore)]
         public ButtonData PreviousTask { get; set; } = new ButtonData { KeyCode = "0x20", Alt = true, Control = true, HumanReadable = "Alt+Ctrl+Space" };
 
-     }
+        [JsonProperty("ToggleAlwaysOnTop", NullValueHandling = NullValueHandling.Ignore)]
+        public ButtonData ToggleAlwaysOnTop { get; internal set; } = new ButtonData { KeyCode = "0xDC", Alt = true, Control = true, HumanReadable = "Alt+Ctrl+|" };
+    }
 
     public partial class ButtonData
     {

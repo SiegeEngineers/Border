@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Border", "OverlayTest\Border.csproj", "{A0FC1525-5038-4E3B-8ACB-B2E246EC5696}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Border", "Border\Border.csproj", "{A0FC1525-5038-4E3B-8ACB-B2E246EC5696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

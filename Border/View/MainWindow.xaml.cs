@@ -110,6 +110,10 @@ namespace Border.View
             {
                 PreviousTask();
             });
+            RegisterGlobalHotkey(Settings.Buttons.ToggleAlwaysOnTop, () =>
+            {
+                AlwaysOnTop = !AlwaysOnTop;
+            });
         }
 
         double VerticalWidth,
