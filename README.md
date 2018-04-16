@@ -5,6 +5,16 @@ If you have no idea what a Build Order is or don't know what the app means, chec
 
 __Important:__ Not all build orders have been tested by multiple people, so I'd be happy if you comment on the default Build Orders added. You can comment [on this issue](https://github.com/abductedPlatypus/Border/issues/1).
 
+![sample](https://github.com/abductedPlatypus/Border/raw/gh-pages/Border-Sample.jpg)
+
+## Features
+- Show Build Orders on top of your game  
+- Quickly cycle through build orders  
+- Highlight your current task  
+- Click through the overlay and control it with hotkeys  
+- Default Build Orders included (AoE2)  
+- Create and share your own Build Orders  
+
 ## Getting Started
 1. [Download the lastest version of the app](https://github.com/abductedPlatypus/border/releases/latest)
 2. Launch the app
@@ -49,7 +59,7 @@ _Amen_
 ### Is there a Forest Nothing Build Order included?
 1
 ### Can I help with the app?
-Sure, fork & play around with the code for a bit, then check out the [issues](https://github.com/abductedPlatypus/Border/issues). 
+Try out the app, and test the default Build Orders. Want to do some programming? Sure, fork & play around with the code for a bit, then check out the [issues](https://github.com/abductedPlatypus/Border/issues). 
 
 ### How do I compile the code?
 Fork the code, then open it in Visual Studio with the latest C# and Windows Presentation Foundation (WPF) installed.
