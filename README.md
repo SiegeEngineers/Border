@@ -5,6 +5,16 @@ If you have no idea what a Build Order is or don't know what the app means, chec
 
 __Important:__ Not all build orders have been tested by multiple people, so I'd be happy if you comment on the default Build Orders added. You can comment [on this issue](https://github.com/abductedPlatypus/Border/issues/1).
 
+![sample](https://github.com/abductedPlatypus/Border/raw/gh-pages/Border-Sample.jpg)
+
+## Features
+- Show Build Orders on top of your game  
+- Quickly cycle through build orders  
+- Highlight your current task  
+- Click through the overlay and control it with hotkeys  
+- Default Build Orders included (AoE2)  
+- Create and share your own Build Orders  
+
 ## Getting Started
 1. [Download the lastest version of the app](https://github.com/abductedPlatypus/border/releases/latest)
 2. Launch the app
