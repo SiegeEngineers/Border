@@ -49,7 +49,7 @@ _Amen_
 ### Is there a Forest Nothing Build Order included?
 1
 ### Can I help with the app?
-Sure, fork & play around with the code for a bit, then check out the [issues](https://github.com/abductedPlatypus/Border/issues). 
+Try out the app, and test the default Build Orders. Want to do some programming? Sure, fork & play around with the code for a bit, then check out the [issues](https://github.com/abductedPlatypus/Border/issues). 
 
 ### How do I compile the code?
 Fork the code, then open it in Visual Studio with the latest C# and Windows Presentation Foundation (WPF) installed.
