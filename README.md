@@ -16,7 +16,7 @@ __Important:__ Not all build orders have been tested by multiple people, so I'd 
 - Create and share your own Build Orders  
 
 ## Getting Started
-1. [Download the lastest version of the app](https://github.com/abductedPlatypus/border/releases/latest)
+1. [Download the latest version of the app](https://github.com/abductedPlatypus/border/releases/latest)
 2. Launch the app
 3. `Right-click` the to see all the options.
 4. Press `Alt + \` or `right-click` and press `Click Through Window`
