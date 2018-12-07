@@ -76,3 +76,5 @@ If people want these features I might add:
 - In-App Build Order Designer
 - Share Build Orders with others
 
+## Authors
+@abductedPlatypus - Original Author
