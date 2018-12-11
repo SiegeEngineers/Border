@@ -77,4 +77,4 @@ If people want these features I might add:
 - Share Build Orders with others
 
 ## Authors
-@abductedPlatypus - Original Author
+[abductedPlatypus](https://github.com/abductedplatypus) - Original Author
