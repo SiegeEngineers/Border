@@ -53,7 +53,7 @@ You can edit the settings.json file with a text editor. Which will allow you to 
 The app will bug you about it.
 
 ### Your Build Orders Suck
-[FeelsDautMan.](https://github.com/abductedPlatypus/border/wiki/add-build-orders)  
+[FeelsDautMan.](https://github.com/SiegeEngineers/Border/wiki/Add-Build-Order)  
 
 ### All Hail King DauT!
 _Amen_
